@@ -1,4 +1,4 @@
-# langchain-demo
+# langchain-ts-demo
 
 ## install
 
@@ -12,3 +12,7 @@
 1. input OPENAI_API_KEY from https://platform.openai.com/account/api-keys
 1. `package.json` change `script start`field value like `"ts-node --esm src/index{{num}}.ts"`
 1. `npm run start`
+
+## Reference
+
+https://js.langchain.com/docs/
