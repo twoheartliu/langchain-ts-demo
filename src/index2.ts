@@ -7,6 +7,6 @@ const prompt = new PromptTemplate({
   inputVariables: ['product'], // 指定模板中的变量
 })
 // 调用 format 方法，传入参数
-const res = await prompt.format({ product: 'colorful socks' })
+const res = await prompt.format({ product: 'colorful pencil' })
 console.log(res)
 // Output: What is a good name for a company that makes colorful socks?
